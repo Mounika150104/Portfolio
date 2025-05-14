@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #id5 {
+            font-size: 20px;
+            box-sizing: border-box;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            display: inline-flex;
+            align-items: center;
+            background-color: rgb(174,174,230);
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px 2px;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+        }
+        .logo img {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+            cursor: pointer;
+           
+        }
+        .text {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            }
+
+            .download-btn:hover {
+            background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Certifications.html">Certifications</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div class="content">
+        <div id="id5">
+            <div class="container">
+                <a href="https://www.linkedin.com/login" class="logo">
+                    <img src="https://logosmarken.com/wp-content/uploads/2020/04/Linkedin-Emblem.png" height="50px" width="50px">
+                </a>
+                <a href="https://www.linkedin.com/in/mounika-mokkala-70b17926a" class="text">
+                    LinkedIn
+                </a>
+            </div><br><br>
+            <div class="container">
+                <a href="https://www.github.com/login" class="logo">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.WF_eQY44wgHdkCkdaUjRdgHaHa&pid=Api&P=0&h=180" height="50px" width="50px">
+                </a>
+                <a href="https://github.com/Mounika150104" class="text">
+                    Github
+                </a>
+            </div>
+            <br><br>
+            <a href="resume.pdf" download class="download-btn">Download My Resume</a>
+        </div>
+    </div>
+</body>
+</html>
